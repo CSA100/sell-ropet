@@ -1,3 +1,24 @@
 .DS_Store
 *.log
 node_modules/
+
+# Local drafts from earlier iterations. GitHub Pages publishes from docs/.
+/affiliate-disclosure/
+/allergy-free-pet-alternative/
+/analytics-setup/
+/assets/
+/deploy-parents/
+/deploy-young-couples/
+/desk-companion-gadgets/
+/for-parents/
+/for-young-couples/
+/gift-for-someone-who-wants-a-pet/
+/low-maintenance-pet-alternatives/
+/privacy/
+/robot-pet-for-adults/
+/ropet-review/
+/ropet-vs-emo/
+/ropet-vs-loona/
+/index.html
+/robots.txt
+/sitemap.xml
