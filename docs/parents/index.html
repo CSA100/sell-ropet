@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Cute Emotional Robot Pet for Kids Who Keep Asking for a Real Pet</title>
+    <meta name="description" content="Ropet KAMOMO is a cute emotional AI robot pet for parents who want a low-mess, supervised pet-like gift for young children.">
+    <meta property="og:title" content="A Cute Emotional Robot Pet for Kids">
+    <meta property="og:description" content="A cute emotional parent-friendly robot pet gift without feeding, walks or cleanup.">
+    <meta property="og:image" content="https://ropetai.com/cdn/shop/files/ropet_Pro.png?v=1773906287&width=600">
+    <style>
+      :root {
+        --ink: #18211d;
+        --muted: #5f6c65;
+        --line: #dce6df;
+        --paper: #f9fbf7;
+        --green: #dff2e6;
+        --blue: #dfefff;
+        --yellow: #fff0bf;
+        --button: #17684b;
+        --button-dark: #0e4934;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      * { box-sizing: border-box; }
+      body { margin: 0; color: var(--ink); background: var(--paper); line-height: 1.65; }
+      img { display: block; max-width: 100%; }
+      .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+      .hero {
+        min-height: 92vh;
+        display: grid;
+        grid-template-columns: 1fr 0.9fr;
+        gap: 42px;
+        align-items: center;
+        padding: 40px 0;
+      }
+      .eyebrow {
+        display: inline-block;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: var(--yellow);
+        color: #5a4614;
+        font-weight: 850;
+        font-size: 14px;
+      }
+      h1, h2, h3 { margin: 0 0 14px; line-height: 1.08; letter-spacing: 0; }
+      h1 { font-size: clamp(40px, 7vw, 76px); }
+      h2 { font-size: clamp(28px, 4vw, 44px); margin-top: 18px; }
+      h3 { font-size: 21px; }
+      p, li { color: var(--muted); font-size: 18px; }
+      .lead { font-size: clamp(19px, 2.3vw, 24px); max-width: 680px; }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 52px;
+        padding: 14px 20px;
+        border-radius: 8px;
+        background: var(--button);
+        color: #fff;
+        text-decoration: none;
+        font-weight: 900;
+      }
+      .button:hover { background: var(--button-dark); color: #fff; }
+      .button-light { background: #fff; color: var(--button-dark); border: 1px solid var(--line); }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+      .photo {
+        border-radius: 10px;
+        background: #fff;
+        overflow: hidden;
+        box-shadow: 0 24px 70px rgba(28, 59, 43, 0.15);
+      }
+      .photo img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; }
+      .video-card {
+        border-radius: 10px;
+        background: #fff;
+        overflow: hidden;
+        box-shadow: 0 24px 70px rgba(28, 59, 43, 0.15);
+      }
+      .note { padding: 16px; background: #fff; color: var(--muted); border-top: 1px solid var(--line); }
+      .video-frame {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border: 0;
+        background: #222;
+      }
+      section { padding: 64px 0; }
+      .band { background: #fff; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+      .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+      .card {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 22px;
+        box-shadow: 0 14px 44px rgba(28, 59, 43, 0.07);
+      }
+      .card:nth-child(1) { background: var(--green); }
+      .card:nth-child(2) { background: var(--blue); }
+      .card:nth-child(3) { background: var(--yellow); }
+      .story { max-width: 760px; margin: 0 auto; }
+      .parent-rule {
+        padding: 22px;
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+      }
+      table { width: 100%; border-collapse: collapse; margin: 24px 0; background: #fff; border-radius: 10px; overflow: hidden; }
+      th, td { border: 1px solid var(--line); padding: 16px; text-align: left; vertical-align: top; }
+      th { background: var(--green); }
+      .cta {
+        text-align: center;
+        background: var(--ink);
+        color: #fff;
+        border-radius: 12px;
+        padding: 44px 24px;
+      }
+      .cta p { color: #e3ece6; max-width: 700px; margin-left: auto; margin-right: auto; }
+      .disclosure, footer { font-size: 14px; color: #6f7a73; }
+      .disclosure {
+        background: #fff8dd;
+        border: 1px solid #ead99f;
+        border-radius: 8px;
+        padding: 12px;
+        margin-top: 18px;
+      }
+      footer { padding: 32px 0; border-top: 1px solid var(--line); }
+      @media (max-width: 820px) {
+        .hero, .grid { grid-template-columns: 1fr; }
+        .hero { min-height: auto; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="wrap hero">
+        <div>
+          <span class="eyebrow">For kids who want a cute emotional pet</span>
+          <h1>A cute emotional robot pet gift without the walks, mess or vet bills.</h1>
+          <p class="lead">Ropet KAMOMO gives children a cute, emotional and responsive AI pet experience while parents stay in control of setup, supervision and expectations.</p>
+          <div class="actions">
+            <a class="button" href="https://ropetai.com/products/ropet%E2%84%A2-ai-comfort-companion-plush-robot?ref=gwprdkew&utm_source=parents_blog&utm_medium=landing_page&utm_campaign=ropet_parents" rel="sponsored nofollow">Check today's cute Ropet deal</a>
+            <a class="button button-light" href="#parent-fit">See if this emotional pet fits your family</a>
+          </div>
+          <p class="disclosure">Disclosure: this page contains a referral link. I may earn a commission if you buy through it, at no extra cost to you.</p>
+        </div>
+        <div class="video-card">
+          <iframe
+            class="video-frame js-ropet-video"
+            title="Ropet KAMOMO video"
+            allow="autoplay; encrypted-media; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen></iframe>
+          <div class="note">Best as a cute supervised family companion, not a babysitter and not a replacement for a real animal.</div>
+        </div>
+      </section>
+
+      <section id="parent-fit" class="band">
+        <div class="wrap">
+          <h2>Why parents consider this cute emotional robot pet</h2>
+          <div class="grid">
+            <div class="card">
+              <h3>Cute pet-like comfort, not pet-level responsibility</h3>
+              <p>No feeding, walking, litter box, barking, damage, boarding or vet appointments.</p>
+            </div>
+            <div class="card">
+              <h3>Emotional enough to feel special</h3>
+              <p>Ropet is designed around touch, voice, gestures, changing expressions and cute daily interaction.</p>
+            </div>
+            <div class="card">
+              <h3>A cute softer first step</h3>
+              <p>It lets your child enjoy caring for a little emotional companion before the family decides on a real pet.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <article class="wrap story">
+          <h2>The parent-friendly way to frame this cute emotional gift</h2>
+          <p>The right pitch is not "this replaces a real pet." It does not. The right pitch is: "This is a cute robot pet we can care for together while we decide whether our family is ready for a real animal."</p>
+
+          <h2>Who it is best for</h2>
+          <table>
+            <tr><th>Good fit</th><th>Probably not a fit</th></tr>
+            <tr>
+              <td>Families in apartments, children asking for a pet, parents avoiding mess or allergy concerns, emotional gift buyers, and families who want cute supervised tech play.</td>
+              <td>Parents looking for a babysitter, a no-setup toy, a rough toddler toy, or a complete replacement for real social play and outdoor time.</td>
+            </tr>
+          </table>
+
+          <h2>Rules I would set first</h2>
+          <div class="parent-rule">
+            <ul>
+              <li>An adult handles setup, app permissions and privacy settings.</li>
+              <li>Ropet stays in a shared family space.</li>
+              <li>Children use it gently because it is still an electronic product.</li>
+              <li>Play happens in short sessions, not all day.</li>
+              <li>Everyone understands that Ropet is a cute robot companion, not a living pet.</li>
+            </ul>
+          </div>
+
+          <h2>What to check before buying</h2>
+          <p>Before buying, check the current official page for price, shipping, return policy, warranty, app requirements, privacy details, battery life and bundle contents. Ropet has camera and microphone features, so parents should review the latest privacy information before giving it to a child.</p>
+        </article>
+      </section>
+
+      <section class="wrap">
+        <div class="cta">
+          <h2>Bottom line for parents</h2>
+          <p>Ropet is a strong gift if your child wants a cute emotional pet-like companion and your household wants something cleaner, calmer and easier to manage than a real pet.</p>
+          <a class="button" href="https://ropetai.com/products/ropet%E2%84%A2-ai-comfort-companion-plush-robot?ref=gwprdkew&utm_source=parents_blog&utm_medium=landing_page&utm_campaign=ropet_parents&utm_content=bottom_cta" rel="sponsored nofollow">See current cute Ropet price</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">Independent referral page. Check the official Ropet product page for current pricing, shipping, returns, warranty, privacy details and bundle contents before buying.</div>
+    </footer>
+    <script>
+      (function () {
+        var origin = window.location.origin && window.location.origin !== "null" ? "&origin=" + encodeURIComponent(window.location.origin) : "";
+        var src = "https://www.youtube-nocookie.com/embed/EFfJ3H2WzW0?autoplay=1&mute=1&loop=1&playlist=EFfJ3H2WzW0&playsinline=1&rel=0&enablejsapi=1" + origin;
+        document.querySelectorAll(".js-ropet-video").forEach(function (iframe) {
+          iframe.src = src;
+        });
+      })();
+    </script>
+  </body>
+</html>
